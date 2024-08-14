@@ -5,3 +5,6 @@ vim.opt.mousescroll = "ver:1,hor:2"
 vim.opt.title = true
 vim.g.root_spec = { "cwd" }
 vim.g.lazyvim_php_lsp = "intelephense"
+vim.o.wrap = true
+vim.o.breakindent = true
+vim.o.breakindentopt = "shift:8"
