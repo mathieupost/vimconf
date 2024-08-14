@@ -15,6 +15,3 @@ vim.keymap.set("t", "<c-g>", "<c-\\><c-n>", { desc = "Enter Normal Mode" })
 
 -- Editor
 vim.keymap.set("i", "<S-CR>", "<ESC>o", { desc = "New line" })
-
--- unmap lazygit
-vim.keymap.del("n", "<leader>gG")

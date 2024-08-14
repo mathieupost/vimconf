@@ -3,7 +3,7 @@ return {
     "tpope/vim-fugitive",
     event = "VeryLazy",
     keys = {
-      { "<leader>gg", "<cmd>tab Git<cr>", desc = "fugitive" },
+      { "<leader>gG", "<cmd>tab Git<cr>", desc = "fugitive" },
       { "<leader>gl", "<cmd>tab Git log<cr>", desc = "log" },
       { "<leader>gp", "<cmd>Git push<cr>", desc = "push" },
       { "<leader>gP", "<cmd>Git push --force<cr>", desc = "push (force)" },
@@ -50,8 +50,9 @@ return {
     },
     config = true,
     event = "VeryLazy",
+    cmd = { "Neogit" },
     keys = {
-      { "<leader>gG", "<cmd>Neogit<cr>", desc = "Neogit" },
+      { "<leader>gg", "<cmd>Neogit<cr>", desc = "Neogit" },
     },
   },
 }
